@@ -1,19 +1,20 @@
 import logo from '../../../logo.svg';
-const Header = ({children}: any) => (
+const Header = ({ children }: any) => (
     <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-            Edit <code>src/App.tsx</code> and save to reload.
+        <div role="heading" aria-level={2}>
+            <img src={logo} className="App-logo" alt="logo" />
+            <p>
+                Edit <code>src/App.tsx</code> and save to reload.
         </p>
-        <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-            role="heading" aria-level={1}
-        >
-            Learn React
+            <a
+                href="https://reactjs.org"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="App-link"
+            >
+                Learn React
         </a>
+        </div>
         {children}
     </header>
 )

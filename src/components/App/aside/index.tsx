@@ -1,5 +1,5 @@
 const Aside = () => (
-    <aside role="navigation" aria-label="Relacionado">
+    <aside aria-label="Relacionado">
         <h2>Relacionado</h2>
         <ul>
           <li><a href="#!">Oh, me gusta estar junto al mar</a></li>

@@ -5,7 +5,7 @@ import Nav from './index';
 
 describe('Testing Nav', () => {
     test('loads and displays content', async () => {
-        render(<Nav />)
+        render(<Nav />);
         expect(screen.getByRole('navigation')).toHaveTextContent('Inicio')
     })
 })
